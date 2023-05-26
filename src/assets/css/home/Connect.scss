@@ -1,0 +1,127 @@
+@import "./Setting.scss";
+
+.connect_section_1 {
+  background-color: #20293e;
+  padding-bottom: 2%;
+  padding-top: 0.5%;
+}
+
+.connect_section_2 {
+    position: relative;
+    padding-bottom: 8%;
+    .panel {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 5%;
+      .title1 {
+        color: #FFFFFF;
+        font-family: NexaBold;
+        font-size: 2.8rem;
+      }
+      .title2 {
+        color: #FFFFFF;
+        font-family: NexaLight;
+        font-size: 1.375rem;
+        line-height: 2.5rem;
+      }
+    }
+  }
+.connect_section_2::before {
+  content: "";
+  background: url("../../../assets/img/connect/connect_banner.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.connect_section_3 {
+  background-color: #20293e;
+  padding-bottom: 2%;
+  .connect-accounting {
+    padding: 0 20% 0 2%;
+  }
+}
+.connect_connect_tab {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.connect_connect_panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+.connect_connect_panel1 {
+  padding-bottom: 20px;
+}
+.connect_connect_panel1_text1 {
+  color: $primary-color1;
+  font-family: NexaBold;
+  font-size: 2.18rem;
+  font-weight: bold;
+}
+.connect_connect_text2 {
+  color: $primary-color1;
+  font-family: NexaLight;
+  font-size: 1rem;
+  line-height: 3rem;
+}
+.connect-service {
+  background: url("../../../assets/img/connect/services.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 30%;
+}
+.finance-background {
+  position: relative;
+}
+.finance-background::before {
+  content: "";
+  background-image: url("../../../assets/img/connect/finance-bg.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.23;
+}
+
+.connect_section_4,
+.connect_section_5,
+.connect_section_6,
+.connect_section_7,
+.connect_download {
+  background-color: #20293e;
+}
+
+.connect_section_6 {
+  padding: 3% 0;
+}
+.connect_section_7 {
+  padding-top: 5%;
+}
+
+.community-header {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .connect_section_3,
+    .connect_section_7 {
+      padding: 0 5%;
+    }
+
+    .connect_section_2 .panel .title1 {
+        font-size: 2rem;
+    }
+    .connect_connect_panel1_text1 {
+        font-size: 1.8rem;
+    }
+  }

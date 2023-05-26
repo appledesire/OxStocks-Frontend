@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form-control {
+  border: solid #ffffff 1px !important;
+  border-radius: 20px !important;
+  background-color: #ffffff20 !important;
+  color: #ffffff !important;
+  font-family: NexaLight !important;
+  margin-bottom: 1%;
+  padding: 15px !important;
+}
+.form-control::placeholder {
+  color: #ffffff !important;
+  font-family: NexaLight !important;
+}
+.form-control-round {
+  border: solid #ffffff30 1px !important;
+  border-radius: 50% !important;
+  background-color: #ffffff20 !important;
+  color: #ffffff !important;
+  font-family: NexaLight !important;
+  margin-bottom: 1%;
+  padding: 15px 17px !important;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.form-control-round::placeholder {
+  color: #ffffff !important;
+  font-family: NexaLight !important;
+}
+.btn-warning {
+  color: white !important;
+  background-color: #f79118 !important;
+  padding: 15px 5%;
+  font-family: NexaLight;
+}
+
+.btn-danger {
+  color: white !important;
+  background-color: #ff0000 !important;
+  padding: 2% 5%;
+  font-family: NexaLight;
+}
+
+.btn-warning-board {
+  color: #f79118 !important;
+  border: 1px solid #f79118 !important;
+  padding: 2% 5%;
+  font-family: NexaLight;
+}
+.btn-warning-board:hover {
+  color: white !important;
+  border: 1px solid #f79118 !important;
+  background-color: #f79118;
+  padding: 2% 5%;
+  font-family: NexaLight;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-30 {
+  margin-top: 30px;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+
+.rotateImg {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* .motion-demo-1 {
+  offset-path: path("M0 0 L-80 51");
+  animation: move 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 50%;
+  }
+}
+
+.motion-demo-2 {
+  offset-path: path("M10,0 L60,30");
+  animation: move 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+}
+
+.motion-demo-3 {
+  offset-path: path("M10,0 L60,-29");
+  animation: move 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+}
+
+.motion-demo-4 {
+  offset-path: path("M10,0 L-30,-23");
+  animation: move 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+} */
+
+.motion-demo-1 {
+  offset-path: path("M0 0 L-80 51");
+  animation: move1 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+}
+
+@keyframes move1 {
+  0% {
+    left: -25px;
+    top: -76px;
+  }
+  100% {
+    left: -50px;
+    top: -50px;
+  }
+}
+
+.motion-demo-2 {
+  offset-path: path("M10,0 L60,30");
+  animation: move2 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+}
+
+@keyframes move2 {
+  0% {
+    left: -69px;
+    top: 19px;
+  }
+  100% {
+    left: -61px;
+    top: 35px;
+  }
+}
+
+.motion-demo-3 {
+  offset-path: path("M10,0 L60,-29");
+  animation: move3 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+}
+
+@keyframes move3 {
+  0% {
+    left: 33px;
+    top: 32px;
+  }
+  100% {
+    left: 48px;
+    top: 15px;
+  }
+}
+
+.motion-demo-4 {
+  offset-path: path("M10,0 L-30,-23");
+  animation: move4 2000ms infinite;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background: #f79118;
+}
+
+@keyframes move4 {
+  0% {
+    left: 45px;
+    top: -50px;
+  }
+  100% {
+    left: 30px;
+    top: -65px;
+  }
+}
+
+.round-50 {
+  border-radius: 50px !important;
+}
+.accordion-body {
+  padding: 1rem 3rem !important;
+}
+.accordion-button::after {
+  filter: invert(1);
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+  .market_section_1 {
+    background-position: 50% 0 !important;
+  }
+  
+}

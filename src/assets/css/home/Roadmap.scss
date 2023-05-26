@@ -1,0 +1,118 @@
+@import "./Setting.scss";
+
+.roadmap_section1 {
+  padding-top: 0.5%;
+  background-image: url("../../img/crypto/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.roadmap_link_tab {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.roadmap_link_title {
+  color: $primary-color1;
+  font-family: NexaLight;
+  font-size: 2.18rem;
+  text-align: center;
+}
+.roadmap_link_info1 {
+  color: $primary-color1;
+  font-family: NexaLight;
+  font-size: 1rem;
+  text-align: center;
+}
+.roadmap_link_info2 {
+  color: #6e6e6e;
+  font-family: NexaLight;
+  font-size: 1rem;
+  text-align: center;
+}
+/* section_1 */
+
+/* section_2 */
+.roadmap_section2 {
+  background-color: #20293e;
+  display: flex;
+  flex-direction: row;
+}
+.roadmap_roadmap_tab {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.roadmap_roadmap_panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+.roadmap_roadmap_panel1 {
+  padding-bottom: 20px;
+}
+.roadmap_roadmap_panel1_text1 {
+  color: $primary-color1;
+  font-family: NexaBold;
+  font-size: 2.18rem;
+  font-weight: bold;
+}
+.roadmap_color_text {
+  color: #f79118;
+  font-family: NexaBold;
+  font-size: 25px;
+  font-weight: bold;
+}
+.roadmap_roadmap_panel1_text2 {
+  color: $primary-color1;
+  font-family: NexaLight;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.roadmap_roadmap_panel2 {
+  background-color: #2c3448;
+  padding: 3%;
+  border-radius: 10px;
+  flex-direction: row;
+  margin-bottom: 22px;
+  /* padding-bottom: 20px; */
+}
+.roadmap_roadmap_panel2_img {
+  display: flex;
+  align-items: center;
+}
+.roadmap_roadmap_panel2_img img {
+  margin-right: 1rem;
+}
+.roadmap_roadmap_panel2_text1 {
+  padding-top: 3%;
+  color: $primary-color1;
+  font-family: NexaBold;
+  font-size: 1.56rem;
+  font-weight: bold;
+}
+.roadmap_roadmap_panel2_text2 {
+  color: $primary-color1;
+  font-family: NexaLight;
+  font-size: 1rem;
+}
+/* section_2 */
+
+/* section_3 */
+
+.roadmap_section3,
+.rodmap_section5 {
+  background-color: #20293e;
+}
+/* section_5 */
+.rodmap_section5 {
+  padding-top: 5rem;
+}
+.roadmap_download {
+  background-color: #20293e;
+}
+hr {
+  color: rgb(255, 255, 255, 0.5);
+  margin: 2rem 0;
+}

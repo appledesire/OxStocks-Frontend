@@ -1,0 +1,39 @@
+@import '../Setting.scss';
+
+.OTP_section_2 {
+    background-color: #20293e;
+    padding-top: 3%;
+    .panel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .box {
+        border: 1px solid #ffffff90;
+        padding: 5%;
+        border-radius: 10px;
+        .title1 {
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 35px;
+        }
+        .title2 {
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        .title3 {
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 20px;
+            span {
+                color: $primary-color2;
+            }
+        }
+    }
+}
+
+.OTP_section_3 {
+    background-color: #20293e;
+}
