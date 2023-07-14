@@ -115,7 +115,7 @@ const App = () => {
               <Route exact path="/forgetpassword" element={ <ForgetPassword /> } />
               <Route exact path="/OTP" element={ <OTP /> } />
               <Route exact path="/resetpassword" element={ <ResetPassword /> } />
-              
+            
               <Route exact path="/connect" element={ <Connect /> } />
             </Routes>
             <Footer />
