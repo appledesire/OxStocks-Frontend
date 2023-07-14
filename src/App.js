@@ -38,7 +38,6 @@ import Detail from './components/home/news/Detail';
 import { Provider } from 'react-redux';
 import store from './store';
 
-
 import { LOGOUT } from './actions/types';
 import { loadUser } from './actions/auth';
 import setAuthToken from './utils/setAuthToken';
